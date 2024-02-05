@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem; 
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.green-text {
+    color: #66ff2c;
+}
+
+
+.jm-store-footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#particles-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+@keyframes particleAnimation {
+    to {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
